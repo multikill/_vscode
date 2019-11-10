@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "temp.hpp"
 
 using namespace std;
 
@@ -15,5 +16,7 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+
+    printHelloWorld();
 
 }
